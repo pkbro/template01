@@ -1,4 +1,4 @@
-*{
+body {
     font-family: "Lato", sans-serif;
 }
 
@@ -104,13 +104,15 @@
 .full-icon-descrip{
     display: flex;
     padding-bottom: 30px;
+    
 }
 
 .individual{
-    display: block;
+    display: inline-block;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    float: left;
+    width: 33%;
 }
 
 .indiv-icon{
@@ -125,6 +127,11 @@
 
 .underline, .descrip{
     color: lightgray;
+}
+
+.descrip{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .simple{
