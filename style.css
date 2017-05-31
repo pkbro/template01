@@ -1,0 +1,173 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.journey{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    
+    border-bottom: 1.5px solid lightgray;
+}
+
+.head-text{
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#journey-word{
+    padding-left: 14px;
+    color: darkslategray;
+}
+
+#circle {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: salmon;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#line{
+    color: lightgray;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+#simple-way{
+    max-height: 22px;
+    color: lightgray;
+    max-width: 120px;
+    font-size: 10px;
+    
+}
+
+.icon-group{
+    justify-content: flex-end;
+    
+   
+}
+
+.icons{
+    background-color: lightgray;
+    color: white;
+    border-radius: 50%;
+    
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.hello{
+    width: 100%;
+    
+}
+
+.hello-all-content{
+    max-width: 800px;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.hello-heading{
+    align-items: center;
+    color: darkslategray;
+    font-size: 21px;
+    text-align: center;
+    line-height: 10px;
+    height: 90px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.main-img{
+    max-height: 200px;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.full-icon-descrip{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.individual{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.indiv-icon{
+    color: salmon;
+    font-size: 50px;
+}
+
+.icon-title{
+    color: darkslategray;
+    margin-bottom: -20px;
+}
+
+.underline, .descrip{
+    color: lightgray;
+}
+
+.simple{
+    width: 100%;
+    justify-content: center;
+}
+
+
+.simp-img-par{
+    
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    border-bottom: 1.5px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.simp-img-contain{
+    width: 200px;
+    height: 140px;
+    display: flex;
+}
+
+.simp-image{
+    width: 100%;
+    
+    display: flex;
+}
+
+
+.simp-text{
+    width: 70%;
+    display: f;
+}
+
+.simp-title, .simp-paragraph{
+    color: darkslategray;
+    text-align: left;
+}
+
+.simp-paragraph{
+    color: lightgray;
+    text-align: left;
+}
+
